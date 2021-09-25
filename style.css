@@ -1,0 +1,155 @@
+body{
+    background-color: midnightblue;
+}
+.main_body{
+    height: auto;
+    width: 100%;
+}
+.newMain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Search-box{
+    width: 500px;
+    height: 300px;
+    /* border: 1px solid rgb(204, 187, 187); */
+    position: relative;
+    left: 35%;
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+    
+}
+#search_input_Id{
+    height: 50px;
+    width: 90%;
+    background-color: white;
+    border-radius: 40px;
+    outline: none;
+    text-align: center;
+}
+.main_ImageANdDet_Sec{
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.image_and_Details{
+    margin-top: 30px;
+    height: 315px;
+    width: 300px;
+    border: 1px solid white;
+    background: chocolate;
+}
+.imageDem{
+    height: 60%;
+    width: 100%;
+    border: 1px solid green;
+}
+.image_and_Details img{
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s;
+}
+.image_and_Details img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px 2px white ; 
+}
+.detailsSection{
+    height: 40%;
+    width: 100%;
+    border:2px solid orange;
+}
+.InstClass{
+    color: aliceblue;
+}
+
+.main_details_Page_Section{
+    height: 100vh;
+    width: 100%;
+    border: 5px solid green;
+
+}
+.meal_Name{
+    color: white;
+    margin: 40px;
+    
+}
+.imageDem1{
+    display: inline-block;
+    height: 506px;
+    width: 40%;
+    margin-left: 10px;
+    margin-right: 5%;
+}
+
+.imageDem1 img{
+    height: 100%;
+    width: 100%;
+}
+.description{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    color: white;
+    text-align: justify;
+}
+.description a{
+    color: brown
+}
+.bookmarkSection{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+}
+
+.anchorforfac{
+    text-align: right;
+    margin: 25px;
+    font-size: xx-large;
+    position: relative;
+
+}
+.anchorforfac a {
+    text-decoration: none;
+}
+.anchorforfac a i{
+    color: brown;
+    /* transition: transform 0.3s; */
+
+
+}
+/* .anchorforfac a i:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px 2px white ;  
+} */
+.circlefornum{
+    height: 20px;
+    width: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    color: white;
+    left: 99%;
+    font-size: large;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.circlefornum:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px 2px white ;  
+}
+.RemoveButton{
+    color: white;
+    background-color: brown;
+
+}
+input[type="text"]::placeholder { 
+                  
+    /* Firefox, Chrome, Opera */
+    text-align: center;
+}
