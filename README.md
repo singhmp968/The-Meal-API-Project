@@ -22,9 +22,10 @@ It is a simple javascript application is being implemented to make simple API ca
   -Live Site URL:[Live Website](https://singhmp968.github.io/The-Meal-API-Project/)
   
 ### Screenshot
+![](https://github.com/singhmp968/The-Meal-API-Project/blob/master/Screenshot%20(23).png)
+![](https://github.com/singhmp968/The-Meal-API-Project/blob/master/Screenshot%20(24).png)
+![](https://github.com/singhmp968/The-Meal-API-Project/blob/master/Screenshot%20(25).png)
 
-![](images/image1.png)
-![](images/Screenshot.png)
 
 ## My process
 
